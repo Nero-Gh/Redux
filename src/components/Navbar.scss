@@ -1,0 +1,19 @@
+.navbar-container {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 80px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

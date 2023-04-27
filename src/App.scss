@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#light {
+  background-color: #926a6a;
+}
+
+#dark {
+  background-color: purple;
+}
+
+#light .react-switch-bg {
+  background-color: #b39292 !important;
+}
+#dark .react-switch-bg {
+  background-color: rgb(145, 39, 145) !important;
+}
+// #dark .react-switch-handle {
+//   width: 10px !important;
+//   height: 10px !important;
+// }
+
+.App {
+  display: flex;
+  height: 80vh;
+
+  justify-content: center;
+  align-items: center;
+}
